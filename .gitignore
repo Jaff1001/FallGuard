@@ -1,9 +1,10 @@
 # Virtual environments
-venv/
+env/
 .venv/
 env/
 .env/
 .env*/
+venv_fallguard/
 
 # Python cache files
 __pycache__/
