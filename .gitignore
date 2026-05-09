@@ -1,45 +1,32 @@
-# Virtual environments
-env/
-.venv/
-env/
-.env/
-.env*/
-venv_fallguard/
-
-# Python cache files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pyc.*
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment files
-.env
-.env.local
-
-# IDE folders
-.vscode/
-.idea/
-
-# Log files
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Temporary files
-*.tmp
-*.temp
+node_modules
+dist
+dist-ssr
+.output
+.vinxi
+.tanstack/**
+.nitro
+*.local
 
-# Jupyter notebooks checkpoints
-.ipynb_checkpoints/
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
 
-# Build files
-dist/
-build/
-*.egg-info/
-
-# Large datasets (optional)
-data/
-datasets/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

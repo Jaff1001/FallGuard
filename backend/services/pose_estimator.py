@@ -10,8 +10,8 @@ class PoseEstimationService:
         # Configuración optimizada para inicializar MediaPipe 0.10.x sin problemas
         self.detector = mp.solutions.pose.Pose(
             static_image_mode=False,
-            model_complexity=1,
-            min_detection_confidence=0.5,
+            model_complexity=2,
+            min_detection_confidence=0.7,
             min_tracking_confidence=0.5
         )
         self.last_results = None
